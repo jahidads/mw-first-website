@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security & Ethical Hacking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">CyberSecPro</a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Tools & Services</a></li>
+                <li><a href="#">Customer Testimonials</a></li>
+                <li><a href="#">Booking</a></li>
+                <li><a href="#" id="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Unlock the Power of Cyber Security</h1>
+            <p>Master Ethical Hacking with our expert tools and services</p>
+            <button onclick="window.location.href='https://www.youtube.com/c/jahidads'">Visit My YouTube Channel</button>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>We are a community of cyber security professionals offering the best in ethical hacking knowledge, tools, and services to students and professionals looking to boost their skills.</p>
+    </section>
+
+    <section class="tools">
+        <h2>Our Tools & Services</h2>
+        <ul>
+            <li>Penetration Testing Tools</li>
+            <li>Vulnerability Assessment</li>
+            <li>Security Audits</li>
+            <li>Live Hacking Tutorials</li>
+            <li>Consultation Services</li>
+        </ul>
+    </section>
+
+    <section class="testimonials">
+        <h2>Customer Testimonials</h2>
+        <div class="testimonial">
+            <p>"The tools and training provided by CyberSecPro are top-notch! They made learning ethical hacking so much easier." - Alex, Cybersecurity Student</p>
+        </div>
+        <div class="testimonial">
+            <p>"Excellent consultation services. I secured a job thanks to the hands-on skills I learned here." - Sam, Cybersecurity Professional</p>
+        </div>
+    </section>
+
+    <section class="booking">
+        <h2>Book a Consultation</h2>
+        <form id="booking-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 CyberSecPro | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

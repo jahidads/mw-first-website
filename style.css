@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    padding: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logo a {
+    color: #00c1b7;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+header nav ul li a:hover {
+    background-color: #00c1b7;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    color: white;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    color: white;
+}
+
+button {
+    background-color: #00c1b7;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #008b89;
+}
+
+/* About Section */
+.about, .tools, .testimonials, .booking {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2, .tools h2, .testimonials h2, .booking h2 {
+    font-size: 2em;
+    color: #00c1b7;
+}
+
+/* Modal for Login */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.close-btn {
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+}
